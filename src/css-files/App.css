@@ -1,7 +1,118 @@
-body {
+
+
+.home {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
 }
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.title, .tagline, .shop-button {
+    background-color: black;
+    color:white;
+}
+
+.title {
+    font-size: 48px;
+    width:auto;
+    padding:10px;
+}
+
+.tagline {
+    width:200px;
+    text-align: center;
+    padding:3px;
+}
+
+.shop-button {
+    padding:5px;
+    font-size: 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.shop-button:hover {
+    background-color: white;
+    color:black;
+}
+
+.goToShop {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chevron {
+    height:30px;
+    margin: 30px;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    filter: invert(99%) sepia(0%) saturate(7497%) hue-rotate(216deg) brightness(102%) contrast(102%);
+}
+
+.chevron.left {
+    animation-name: moveleft;
+}
+
+.chevron.right {
+    animation-name:moveright;
+}
+
+@keyframes moveleft {
+    0%, 100% {
+        transform:translateX(0vw)
+    }
+    50% {
+        transform: translateX(20px);
+    } 
+}
+
+@keyframes moveright {
+    0%, 100% {
+        transform:translateX(0vw)
+    }
+    50% {
+        transform: translateX(-20px);
+    } 
+}
+
+@media screen and (max-width:750px) {
+    .home {
+        background-position: 80%;
+    }
+    .title {
+        font-size:200%;
+    }
+
+    .tagline {
+        font-size: 100%;
+    }
+
+    .shop-button {
+        margin-top: 20px;
+    }
+}
+
+

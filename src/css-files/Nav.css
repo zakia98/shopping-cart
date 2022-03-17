@@ -2,11 +2,17 @@
     background-color: black;
     color:white;
     padding:10px;
-    margin-bottom: 20px;
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.sticky {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:8;
 }
 
 .nav-buttons {
@@ -16,8 +22,49 @@
     list-style: none;
     text-align:center;
     margin-right:20px;
+
 }
 
 .nav-link {
     text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color:black;
+    background:white;
+}
+
+.nav-link > a:hover {
+    color:black;
+    background:white;
+    cursor: pointer;
+}
+
+.nav-link > a {
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    color:white;
+    cursor:pointer;
+}
+
+@media screen and (max-width:750px) {
+    .shop-container {
+        padding: 20px 30px;
+    }
+
+    .header {
+        margin:20px 20px;
+    }
 }
