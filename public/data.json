@@ -1,7 +1,7 @@
 [
     {
         "name":"Oishii Ramen",
-        "imglocation":"./images/images/poster1.png",
+        "imglocation":"../images/images/poster1.png",
         "itemtype":"poster",
         "price":"19.99",
         "id":"0001"
