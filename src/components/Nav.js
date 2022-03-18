@@ -13,10 +13,10 @@ function Nav(props) {
             <h1>ニッポンポスターズ</h1>
             <ul className='nav-buttons'>
                 <li className='nav-link'>
-                    <Link to='/'>HOME</Link>
+                    <Link to='/shopping-cart'>HOME</Link>
                 </li>
                 <li className='nav-link'>
-                    <Link to='/shop'>SHOP</Link>
+                    <Link to='/shopping-cart/shop'>SHOP</Link>
                 </li>
                 <li className='nav-link' onClick={props.handleCartButton}>
                     CART ({quantityTotal})
