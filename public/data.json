@@ -1,35 +1,35 @@
 [
     {
         "name":"Oishii Ramen",
-        "imglocation":"../images/images/poster1.png",
+        "imglocation":"../images/poster1.png",
         "itemtype":"poster",
         "price":"19.99",
         "id":"0001"
     },
     {
         "name":"Oishii Udon",
-        "imglocation":"./images/images/poster2.png",
+        "imglocation":"../images/poster2.png",
         "itemtype":"poster",
         "price":"19.99",
         "id":"0002"
     },
     {
         "name":"O-Tera",
-        "imglocation":"./images/images/poster3.png",
+        "imglocation":"../images/poster3.png",
         "itemtype":"poster",
         "price":"19.99",
         "id":"0003"
     },
     {
         "name":"Mt-Fuji",
-        "imglocation":"./images/images/poster4.png",
+        "imglocation":"../images/poster4.png",
         "itemtype":"poster",
         "price":"29.99",
         "id":"0004"
     },
     {
         "name":"Street By Day",
-        "imglocation":"./images/images/poster5.png",
+        "imglocation":"../images//poster5.png",
         "itemtype":"poster",
         "price":"19.99",
         "id":"0005"
