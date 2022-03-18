@@ -63,7 +63,7 @@ const Home = () => {
       <Nav handleCartButton={handleCartButton} cart={cart}></Nav>
       <Routes> 
         <Route path="/shopping-cart/" exact element={<App />} />
-        <Route path='/shop' element={<Shop handleInput={handleInput} items={items} />} />
+        <Route path='/shopping-cart/shop' element={<Shop handleInput={handleInput} items={items} />} />
       </Routes>
       <Cart cart={cart} display={displayCart} handleCartButton={handleCartButton} removeItem={removeItemFromCart}/>
     </BrowserRouter>
