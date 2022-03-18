@@ -13,7 +13,7 @@ function App() {
             </p>
             <div className='goToShop'>
                 <img src={chevronright} alt='right-chevron' className='chevron right'></img>
-                <Link to='/shop' className='shop-button'>VISIT THE SHOP</Link>
+                <Link to='/shopping-cart/shop' className='shop-button'>VISIT THE SHOP</Link>
                 <img src={chevronleft} alt='left-chevron' className='chevron left'></img>
             </div>
         </div>
