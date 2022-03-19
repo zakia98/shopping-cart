@@ -34,4 +34,39 @@
         "price":"19.99",
         "id":"0005"
     }
+    {
+        "name":"Nissan Skyline",
+        "imglocation":"./images/poster6.jpg",
+        "itemtype":"poster",
+        "price":"14.99",
+        "id":"0006"
+    },
+    {
+        "name":"Cyberpunk Ginza",
+        "imglocation":"./images/poster7.webp",
+        "itemtype":"poster",
+        "price":"29.99",
+        "id":"0007"
+    },
+    {
+        "name":"O-Sushi!",
+        "imglocation":"./images/poster8.webp",
+        "itemtype":"poster",
+        "price":"29.99",
+        "id":"0008"
+    },
+    {
+        "name":"Japan Wave",
+        "imglocation":"./images/poster9.webp",
+        "itemtype":"poster",
+        "price":"29.99",
+        "id":"0009"
+    },
+    {
+        "name":"Ginza",
+        "imglocation":"./images/poster10.jpg",
+        "itemtype":"poster",
+        "price":"29.99",
+        "id":"0010"
+    }
 ]
